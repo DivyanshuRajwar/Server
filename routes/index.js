@@ -3,12 +3,12 @@ var router = express.Router();
 var userData = require('./users');  
 
 // GET home page
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+// router.get('/', function(req, res, next) {
+//   res.render('index', { title: 'Express' });
+// });
 
 // GET form page
-router.get('/form', function(req, res) {
+router.get('/', function(req, res) {
   res.render('form');
 });
 
